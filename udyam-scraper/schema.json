@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2025-08-12T00:00:00.000Z",
+  "fields": [
+    {
+      "id": "ctl00_ContentPlaceHolder1_txtAadhaar",
+      "name": "ctl00$ContentPlaceHolder1$txtAadhaar",
+      "label": "Aadhaar Number",
+      "type": "text",
+      "required": true,
+      "maxlength": 12,
+      "validation": {
+        "regex": "^\\d{12}$",
+        "message": "Aadhaar must be 12 digits"
+      }
+    },
+    {
+      "id": "ctl00_ContentPlaceHolder1_txtPAN",
+      "name": "ctl00$ContentPlaceHolder1$txtPAN",
+      "label": "PAN",
+      "type": "text",
+      "required": true,
+      "validation": {
+        "regex": "^[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$",
+        "message": "PAN must match pattern"
+      }
+    }
+  ]
+}
